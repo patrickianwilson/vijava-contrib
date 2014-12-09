@@ -1,4 +1,11 @@
-task wrapper(type: Wrapper) {
-    gradleVersion = '2.1'
+apply plugin: "java"
+
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile 'dom4j:dom4j:1.6.1'
 }
 
